@@ -495,4 +495,13 @@
             </reporting>
         </profile>
     </profiles>
+    
+    <distributionManagement>
+	<repository>
+		<id>central</id>
+		<name>vCentOS-releases</name>
+		<url>http://localhost:8081/artifactory/libs-release-local</url>
+	</repository>
+</distributionManagement>
+
 </project>
